@@ -1,7 +1,5 @@
 package com.decameron.testcase;
 
-import static org.junit.Assert.*;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -31,7 +29,7 @@ public class SumTest extends TestCase {
 	public void testSubs() {
 		Sum sum = new Sum();
 		double resultado = sum.subs(1.0, 1.0);
-        assertEquals(0.0, resultado);
+        assertEquals(0.1, resultado);
 	}
 
 }
