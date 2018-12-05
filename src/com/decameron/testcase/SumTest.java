@@ -29,7 +29,7 @@ public class SumTest extends TestCase {
 	public void testSubs() {
 		Sum sum = new Sum();
 		double resultado = sum.subs(1.0, 1.0);
-        assertEquals(0.1, resultado);
+        assertEquals(0.0, resultado);
 	}
 
 }
